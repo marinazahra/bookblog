@@ -67,6 +67,11 @@ body {
   padding-top: 20px;
   padding-bottom: 10px;
 }
+#id {
+  /*max-width: 40%;*/
+  /*margin-left: 30%;*/
+  max-height: 20%;
+}
 
 #footer {
   background-color: #FCFBE3;
