@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Book Blog</title>
+
+    <!-- Bootstrap -->
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/quotes.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Josefin+Sans|Vibur" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- linked to the online repository -->
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.9";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+
+  <body data-spy="scroll" data-target="#bs-example-navbar-collapse-1">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Home Page</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Book Blog</a></li>
+            <li><a href="#family">Latest Reviews</a></li>
+            <!-- <li><a href="#projects">My Projects</a></li> -->
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    <div id="home" class="text-center contentContainer">
+      <!-- <img src="images/bookshelf.jpg" height=span class="img-rectangle startPoint"/> -->
+      <div id="translucent">
+        <img src="images/bookicon.png" width="200px" height="200px"/>
+        <h1 id="margins" class="animated bounce">The World's Best Books!</h1>
+        <p class="lead">Book reviews galore</p>
+      </div>
+      <!-- Contextual button for informational alert messages -->
+      <a href="about">Learn More</a>
+    </div>
+    <div id="about" class="text-center contentContainer">
+      <h1>About Book Blog</h1>
+      <p class="lead">What's this blog for?</p>
+      <div class="row">
+        <div class="rowContent">
+          <div class="col-md-6 text-left">Book Blog was started with the aim to provide book reviews and suggestions on a simple user-friendly interface.Hello! My name is Clare, I live near London and I have been running this blog since March 2012. I enjoy solving crosswords, drinking Yorkshire Tea and watching Curb Your Enthusiasm.
+
+It may not come as a surprise to you that I like books and I read quite a lot of them – mostly contemporary, literary and translated fiction. My favourite authors include Haruki Murakami, Sarah Waters and Ian McEwan. I love stories with unreliable narrators and my greatest fear is running out of books to read.
+
+I’m not currently accepting review copies of books other than those I have already requested via NetGalley. However, do feel free to contact me with any queries via email or Twitter. Aside from blogging, I have a full-time day job so please be aware that I may not be able to respond straight away.
+          </div>
+          <div class="col-md-6 text-left">
+            <img class="center" src="images/books2.jpg" />
+          </div>
+        </div>
+      </div>
+      <div class="content">
+          <button type="button" class="btn btn-default btn-lg">Contact Me</button>
+      </div>
+    </div>
+    <!-- family start -->
+    <div id="family">
+      <div class="container">
+        <div class="row">
+          <div class='col-md-offset-2 col-md-8 text-center'>
+          <h1>Latest Reviews</h1>
+          </div>
+        </div>
+        <div class='row'>
+          <div class='col-md-offset-2 col-md-8'>
+            <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+              <!-- Bottom Carousel Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#quote-carousel" data-slide-to="1"></li>
+                <li data-target="#quote-carousel" data-slide-to="2"></li>
+              </ol>
+
+              <!-- Carousel Slides / Quotes -->
+              <div class="carousel-inner">
+
+                <!-- Quote 1 -->
+                <div class="item active">
+                  <blockquote>
+                    <div class="row">
+                      <div class="col-sm-3 text-center">
+                        <img class="img-circle" src="images/book1.jpg" style="width: 150px;height:200px;">
+                        <!--<img class="img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/kolage/128.jpg" style="width: 100px;height:100px;">-->
+                      </div>
+                      <div class="col-sm-9">
+                        <p>Timeless classic well-loved by everyone!</p>
+                        <small>Austen fan</small>
+                      </div>
+                    </div>
+                  </blockquote>
+                </div>
+                <!-- Quote 2 -->
+                <div class="item">
+                  <blockquote>
+                    <div class="row">
+                      <div class="col-sm-3 text-center">
+                        <img class="img-circle" src="images/book2.jpg" style="width: 150px;height:200px;">
+                      </div>
+                      <div class="col-sm-9">
+                        <p>Great expectation was a great book.</p>
+                        <small>Dickens enthusiast</small>
+                      </div>
+                    </div>
+                  </blockquote>
+                </div>
+                <!-- Quote 3 -->
+                <div class="item">
+                  <blockquote>
+                    <div class="row">
+                      <div class="col-sm-3 text-center">
+                        <img class="img-circle" src="images/book3.jpg" style="width: 150px;height:200px;">
+                      </div>
+                      <div class="col-sm-9">
+                        <p>Tolstoy is totes cool.</p>
+                        <small>Tolstoy fan</small>
+                      </div>
+                    </div>
+                  </blockquote>
+                </div>
+              </div>
+
+              <!-- Carousel Buttons Next/Prev -->
+              <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+              <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+  <!-- <div class="fb-page" data-href="https://www.facebook.com/books/" data-tabs="timeline" data-width="200" data-height="300" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/books/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/books/">Books on Facebook</a></blockquote></div> -->
+    <div class="centralise">
+      <p><b>Here's a sneakpeek at our facebook page!</b></p>
+      <iframe class="text-center" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fbooks%2F&tabs=timeline&width=500&height=700&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="700" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>  <!-- footer start -->
+    </div>
+    <div id="footer" class="text-center ">
+      <p>Coded this website with <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> with <a href="https://echoedlabs.com" target="_blank">EchoedLabs</a></p>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- <script src="js/bootstrap.min.js"></script> -->
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+    <script src="js/quotes.js"></script>
+</html>

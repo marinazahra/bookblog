@@ -1,0 +1,145 @@
+h1, nav, #footer {
+  font-family: 'Vibur', cursive;
+  font: bold;
+}
+
+body {
+  font-family: 'Josefin Sans', cursive;
+  font-size: 1.5em;
+}
+
+.centralise {
+  content: center;
+}
+
+.startPoint {
+  margin-top: 50px;
+}
+
+.contentContainer {
+  padding-top: 30px;
+  min-height: 100vh;
+}
+
+.rowContent {
+  margin-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+  font-size: 1.1em;
+  font: courier;
+  /*check offset on bootstrap*/
+}
+
+.content {
+  padding: 100px;
+  font-size: 1.1em;
+}
+
+#home {
+  background-image: url(../images/bookshelf.jpg);
+  opacity: 0.7;
+  color:black;
+  font-size: 2em;
+}
+
+#margins {
+  padding-top: 200px;
+}
+
+#about {
+  background-color: #FCFBE3;
+  color: #556270;
+}
+
+#translucent {
+  background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),;
+  background-size: ;
+  /*opacity: 0.3;*/
+}
+
+#family {
+  background-color: #ADD8C7;
+}
+
+#contactme {
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+#footer {
+  background-color: #FCFBE3;
+  color: grey;
+  padding: 30px 0 20px 0;
+}
+
+.navbar-default {
+  background-color: #556270;
+  border-color: #853956;
+}
+.navbar-default .navbar-brand {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #556270;
+}
+.navbar-default .navbar-text {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ffdbdf;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #ffdbdf;
+  background-color: #ADD8C7;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #ffdbdf;
+  background-color: #853956;
+}
+.navbar-default .navbar-toggle {
+  border-color: #853956;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #853956;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ecf0f1;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ecf0f1;
+}
+.navbar-default .navbar-link {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-link:hover {
+  color: #ffdbdf;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ecf0f1;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffdbdf;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffdbdf;
+    background-color: #853956;
+  }
+}
